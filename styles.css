@@ -1,0 +1,83 @@
+header{
+    text-align: center;
+    background-color: rgb(91, 105, 91);
+    padding-bottom: 2rem;
+}
+header>img{
+    max-height: 90rem;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+header>nav{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 1rem;
+    color: black;
+}
+nav>a:hover{
+    background-color: rgb(151, 165, 151);
+    font-weight: bold;
+    border: 3px solid;
+}
+header>nav a{
+    border: solid;
+    padding:.5rem;
+    color: black;
+}
+h2{
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    padding: 2rem;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+}
+#about{
+    background-color:  rgb(91, 105, 91);
+    text-align: center;
+}
+#about>img{
+    padding-top: 2rem;
+    max-width: 25rem;
+}
+#gallery{
+    background-color: rgb(91, 105, 91);
+    text-align: center;
+}
+#gallery>img{
+    padding: 2rem;
+    max-width: 25rem;
+}
+#contact{
+    background-color: rgb(91, 105, 91);
+    text-align: center;
+}
+@media (min-width:1000px){
+    #about>img{
+        max-width: 50rem;
+    }
+    #gallery>img{
+        max-width: 30rem;
+    }
+    #contact{
+        font-size: 1rem;
+    }
+    #about{
+        font-size: 1.25rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    header>nav{
+        font-size: 1.2rem;
+    }
+}
